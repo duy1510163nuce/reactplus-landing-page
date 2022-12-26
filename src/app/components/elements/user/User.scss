@@ -1,0 +1,38 @@
+.user{
+    margin-top: 61.1px;
+    
+    .avt-user{
+        position: relative;
+        width: 62%;
+        margin-top: 54.15px;
+        margin-left: 10%;
+    }
+    .use-description{
+        position: absolute;
+        width: 480px;
+        height: 500px;
+        top: 1147px;
+        right: 140px;
+        background-color: #2947A9;
+        .des-title{
+            margin-top: 35.59px;
+            margin-left: 29.27px;
+            color: #fff;
+            
+        }
+        .des-paragraph1{
+            margin-top: 26.81px;
+            margin-left: 29.27px;
+            font-size: 20px;
+            color: #fff;
+            max-width: 340px;
+        }
+        .des-paragraph2{
+            margin-top: 22.81px;
+            margin-left: 29.27px;
+            font-size: 20px;
+            color: #fff;
+            max-width: 345px;
+        }
+    }
+}
