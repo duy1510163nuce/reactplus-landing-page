@@ -1,0 +1,23 @@
+.subscribe {
+  width: 50%;
+  .subscribe-title {
+    font-size: 14.63px;
+    line-height: 100%;
+    color: #2947a9;
+    font-weight: 400;
+  }
+  .subscribe-content {
+    margin-top: 5.2%;
+    font-size: 14.63px;
+    line-height: 100%;
+    font-weight: 700;
+    color: #2947a9;
+  }
+  .sub-social {
+    display: flex;
+    margin-top: 4%;
+    .sub-item {
+      margin-right: 2%;
+    }
+  }
+}

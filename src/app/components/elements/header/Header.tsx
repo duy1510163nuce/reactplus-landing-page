@@ -1,6 +1,6 @@
 import { FC, ReactElement } from "react";
-import Logo from "./logo/Logo";
-import Navbar from "./navbar/Navbar";
+import Logo from "app/components/elements/header/logo/Logo";
+import Navbar from "app/components/elements/header/navbar/Navbar";
 import './Header.scss'
 
 const Header:FC = ():ReactElement =>{

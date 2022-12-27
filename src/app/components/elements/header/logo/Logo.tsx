@@ -1,6 +1,6 @@
 import { FC, ReactElement } from "react";
-import box from '../../../../../public/images/box.png';
-import theBox from '../../../../../public/images/TheBox.png';
+import box from 'public/images/box.png';
+import theBox from 'public/images/TheBox.png';
 import './Logo.scss'
 const Logo:FC = ():ReactElement =>{
     return(

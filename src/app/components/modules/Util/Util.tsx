@@ -1,17 +1,24 @@
 import { FC, ReactElement } from "react";
-import { ReasonsType } from "../../../types/RepuType";
-import '../reason/Reason.scss'
+import { ServiceType } from "app/types/ServicesType";
+import "../Util/Util.scss";
 
-const Util:FC<ReasonsType> = (reason,key):ReactElement => {
-    
-    
-    return(
-        <div className="reason" key={key}>
-            <img alt = 'avtUSer' src={reason.img} className="reason-img"/>
-            <h1 className="reason-title">{reason.title}</h1>
-            <p className="reason-description">{reason.description}</p>
-        </div>  
-    )
-}
+const Util: FC<ServiceType> = (util): ReactElement => {
+  const key = util.id;
+  return (
+    <div className={util.id % 2 === 0 ? "util-1" : "util-2"} key={key}>
+      <img
+        alt="utilUSer"
+        src={util.img}
+        className={util.id % 2 === 0 ? "util-1-img" : "util-2-img"}
+      />
+      <div
+        className={util.id % 2 === 0 ? "util-1-border" : "util-2-border"}
+      ></div>
+      <p className={util.id % 2 === 0 ? "util-1-des" : "util-2-des"}>
+        {util.name}
+      </p>
+    </div>
+  );
+};
 
 export default Util;
