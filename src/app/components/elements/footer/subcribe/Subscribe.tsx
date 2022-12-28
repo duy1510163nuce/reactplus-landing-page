@@ -3,7 +3,7 @@ import IconFace from "public/images/iconFace .png";
 import IconInsta from "public/images/iconInsta.png";
 import IconTwist from "public/images/iconTwit.png";
 import Input from "./input/Input";
-import "./Subscribe.scss";
+import "app/styles/footer/Subscribe.scss";
 
 const Subscribe: FC = (): ReactElement => {
   return (

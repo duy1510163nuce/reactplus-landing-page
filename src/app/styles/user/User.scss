@@ -1,8 +1,8 @@
 .user {
   margin-top: 61.1px;
-
+  position: relative;
   .avt-user {
-    position: relative;
+    // position: relative;
     width: 62%;
     margin-top: 54.15px;
     margin-left: 10%;
@@ -11,8 +11,9 @@
     position: absolute;
     width: 440px;
     height: 494px;
-    top: 1235px;
-    right: 130px;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 81px;
     border-radius: 1.46px;
     background-color: #2947a9;
     .des-title {

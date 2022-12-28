@@ -1,7 +1,7 @@
 import { FC, ReactElement } from "react";
 import Subscribe from "./subcribe/Subscribe";
 import Contact from "./contact/Contact";
-import "./Footer.scss";
+import "app/styles/footer/Footer.scss"
 
 const Footer: FC = (): ReactElement => {
   return (

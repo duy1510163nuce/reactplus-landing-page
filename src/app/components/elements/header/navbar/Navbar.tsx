@@ -1,5 +1,5 @@
 import { FC, ReactElement } from "react";
-import './Navbar.scss';
+import 'app/styles/header/Navbar.scss';
 
 const Navbar:FC = ():ReactElement =>{
     return(  

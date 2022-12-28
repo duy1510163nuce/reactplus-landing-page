@@ -1,5 +1,5 @@
 import { FC, ReactElement } from "react";
-import "./Input.scss";
+import "app/styles/footer/Input.scss";
 
 const Input: FC = (): ReactElement => {
   return (

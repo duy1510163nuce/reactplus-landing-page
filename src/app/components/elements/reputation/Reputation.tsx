@@ -1,6 +1,6 @@
 import { FC, ReactElement } from "react";
 import Reason from "app/components/modules/reason/Reason";
-import "./Reputation.scss";
+import "app/styles/reputation/Reputation.scss";
 import { listReason } from "app/constant/mockApi";
 
 const Reputation: FC = (): ReactElement => {

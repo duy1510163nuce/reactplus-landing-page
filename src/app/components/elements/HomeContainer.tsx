@@ -1,5 +1,6 @@
 import { FC, ReactElement } from "react";
 import Banner from "../elements/banner/Banner";
+import Achievement from "./achievement/Achievement";
 import Footer from "./footer/Footer";
 import Header from "./header/Header";
 import Reputation from "./reputation/Reputation";
@@ -14,6 +15,7 @@ export const HomeContainer: FC = (): ReactElement => {
       <Reputation />
       <User />
       <Service />
+      <Achievement/>
       <Footer />
     </div>
   );

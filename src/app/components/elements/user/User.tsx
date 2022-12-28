@@ -1,6 +1,6 @@
 import { FC, ReactElement } from "react";
 import avtUser from "public/images/user.png";
-import "../user/User.scss";
+import "app/styles/user/User.scss";
 const User: FC = (): ReactElement => {
   return (
     <div className="user">

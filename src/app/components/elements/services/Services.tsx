@@ -1,7 +1,7 @@
 import { FC, ReactElement } from "react";
 import Util from "app/components/modules/Util/Util";
 import { listServices } from "app/constant/mockApi";
-import "../services/Service.scss";
+import "app/styles/services/Service.scss";
 
 // const type  ServicePropType = {
 //     listService:listServices
@@ -14,8 +14,8 @@ const Service: FC = (): ReactElement => {
         <h1 className="service-title-text">Services</h1>
       </div>
       <div className="list-service">
-        {listServices.map((util) => {
-          return <Util {...util} />;
+        {listServices.map((util,key) => {
+          return <Util {...util}  key={key}/>;
         })}
       </div>
     </div>

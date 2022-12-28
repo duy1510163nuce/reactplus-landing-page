@@ -1,6 +1,6 @@
 import { FC, ReactElement } from "react";
 import Logo from "app/components/elements/header/logo/Logo";
-import "./Contact.scss";
+import "app/styles/footer/Contact.scss";
 
 const Contact: FC = (): ReactElement => {
   return (

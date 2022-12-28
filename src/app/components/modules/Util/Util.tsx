@@ -1,6 +1,6 @@
 import { FC, ReactElement } from "react";
 import { ServiceType } from "app/types/ServicesType";
-import "../Util/Util.scss";
+import "app/styles/util/Util.scss";
 
 const Util: FC<ServiceType> = (util): ReactElement => {
   const key = util.id;
