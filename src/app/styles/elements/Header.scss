@@ -1,0 +1,34 @@
+.header {
+    display: flex; 
+    line-height:  26px;
+    margin-left: 5%;
+    .logo{   
+        margin-left: 6.2%;
+        .logo-text{
+            width: 81px;
+            height:26px;
+            padding-left: 10.21px; 
+            margin-top: 26.1px;  
+        }
+        .logo-box{
+            width:27.81px;
+            height:34.76px;
+            margin-top: 11.1px;
+        }
+    }
+    .navbar{
+        list-style: none;
+        display: flex;
+        font-size: 18px;
+        line-height: 100%;
+        margin-left: 36%;
+        margin-top: 28px;
+        .nav-item{
+            margin:0 15px;
+        }
+        .item-contact {
+            color: #F9995D;
+        }
+
+    }
+}

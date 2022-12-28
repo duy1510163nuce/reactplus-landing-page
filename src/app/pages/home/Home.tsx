@@ -1,5 +1,5 @@
 import { FC, ReactElement } from "react";
-import { HomeContainer } from "app/components/elements/HomeContainer";
+import { HomeContainer } from "app/components/modules/HomeContainer";
 import 'app/styles/Global.scss'
 const Home: FC = (): ReactElement => {
   return (
