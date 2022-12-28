@@ -1,0 +1,49 @@
+.contact {
+  width: 50%;
+  margin-left: 12%;
+  .contact-item {
+    display: flex;
+    .label-address {
+      font-size: 14.63px;
+      line-height: 100%;
+      color: #2947a9;
+      font-weight: 550;
+    }
+    .content-address {
+      margin-left: 9.51px;
+      font-size: 14.63px;
+      font-weight: 300;
+      line-height: 100%;
+      color: #292e3d;
+    }
+    .label-phone {
+      font-size: 14.63px;
+      line-height: 100%;
+      color: #2947a9;
+      font-weight: 550;
+    }
+    .content-phone {
+      margin-left: 28px;
+      font-size: 14.63px;
+      font-weight: 300;
+      line-height: 100%;
+      color: #292e3d;
+    }
+    .label-email {
+      font-size: 14.63px;
+      line-height: 100%;
+      color: #2947a9;
+      font-weight: 550;
+    }
+    .content-email {
+      margin-left: 36.5px;
+      font-size: 14.63px;
+      font-weight: 300;
+      line-height: 100%;
+      color: #292e3d;
+    }
+  }
+  .contact-logo {
+    margin-right: 79%;
+  }
+}
