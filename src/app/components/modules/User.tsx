@@ -16,7 +16,7 @@ const User: FC = (): ReactElement => {
           We’ve matured into an industry leader and trusted resource for those
           seeking quality, innovation and reliability when building in the U.S.
         </p>
-        <Button className="des-btn" title="More on Our History"/>
+        <Button className="des-btn" >More on Our History</Button>
       </div>
     </div>
   );

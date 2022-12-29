@@ -20,7 +20,7 @@ const Consultation = (): ReactElement => {
           <span className="consultation-phone"> +84 1102 2703</span>
         </p>
       </div>
-      <Button title="Get your consultation" className="consultation-btn" />
+      <Button  className="consultation-btn" >Get your consultation</Button>
     </div>
   );
 };

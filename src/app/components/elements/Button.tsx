@@ -1,14 +1,20 @@
-import { ArrowLeftOutlined, ArrowRightOutlined } from "@ant-design/icons";
 
 interface ButtonProps extends React.ButtonHTMLAttributes<HTMLButtonElement> {
-  title: string;
+  children?: React.ReactNode;
+//   onNavigate?: () => void;
 }
-const Button: React.FC<ButtonProps> = ({ title, ...props }) => {
+const Button: React.FC<ButtonProps> = ({
+  title,
+  children,
+//   onNavigate,
+  ...props
+}) => {
+    const handleNavigate = () =>{
+        window.scroll(0,0)
+    }
   return (
-    <button {...props}>
-      {title === "Back" && <ArrowLeftOutlined />}
-      {title}
-      {title === "Next" && <ArrowRightOutlined />}
+    <button {...props} onClick={handleNavigate}>
+      {children}
     </button>
   );
 };

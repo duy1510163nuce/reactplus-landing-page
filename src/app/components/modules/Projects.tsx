@@ -1,6 +1,7 @@
 import { FC, ReactElement } from "react";
 import "app/styles/elements/Projects.scss";
 import Button from "../elements/Button";
+import { ArrowLeftOutlined, ArrowRightOutlined } from "@ant-design/icons";
 
 type ProjectDetailType = {
   id: number;
@@ -45,8 +46,12 @@ const ProjectList: FC<ProjectListProps> = ({ projects }): ReactElement => {
           })}
         </div>
         <div className="right-btn">
-          <Button className="btn-item" title="Back" />
-          <Button className="btn-item" title="Next" />
+          <Button className="btn-item">
+            <ArrowLeftOutlined /> Back
+          </Button>
+          <Button className="btn-item">
+            Next <ArrowRightOutlined />
+          </Button>
         </div>
       </div>
     </div>

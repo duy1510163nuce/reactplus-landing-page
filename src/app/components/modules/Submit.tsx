@@ -57,7 +57,7 @@ const Submit: FC = (): ReactElement => {
         </Row>
       </Form>
       <p className="submit-w    arning">* indicates a required field</p>
-      <Button title="Submit" className="submit-btn"/>
+      <Button  className="submit-btn">Submit</Button>
     </div>
   );
 };

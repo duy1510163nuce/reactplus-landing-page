@@ -38,7 +38,7 @@ const Footer: FC = (): ReactElement => {
               className="sub-input"
               placeholder="Your email here"
             />
-            <Button title="Subscribe" className="sub-btn" />
+            <Button  className="sub-btn" >Subscribe</Button>
           </div>
           <p className="subscribe-content">Social:</p>
           <div className="sub-social">

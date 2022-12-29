@@ -41,7 +41,7 @@ const Achievement: FC<AchievementListProps> = ({
           Our company has been the leading provided construction services to
           clients throughout the USA since 1988
         </p>
-        <Button title="Contact Us" className="right-btn" />
+        <Button className="right-btn">Contact Us</Button>
       </div>
     </div>
   );
