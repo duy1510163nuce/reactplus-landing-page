@@ -1,6 +1,6 @@
 import { FC, ReactElement } from "react";
 import "app/styles/elements/Projects.scss";
-import { ArrowLeftOutlined, ArrowRightOutlined } from "@ant-design/icons";
+import Button from "../elements/Button";
 
 type ProjectDetailType = {
   id: number;
@@ -10,11 +10,11 @@ type ProjectDetailType = {
 };
 
 type ProjectListProps = {
-  projects:ProjectDetailType[]
-}
+  projects: ProjectDetailType[];
+};
 
-const ProjectList: FC<ProjectListProps> = ({projects}): ReactElement => {
-  const ProjectDetail = (project:ProjectDetailType) => {
+const ProjectList: FC<ProjectListProps> = ({ projects }): ReactElement => {
+  const ProjectDetail = (project: ProjectDetailType) => {
     return (
       <div className="project" key={project.id}>
         <img alt="Project-img" src={project.img} className="project-img" />
@@ -45,12 +45,8 @@ const ProjectList: FC<ProjectListProps> = ({projects}): ReactElement => {
           })}
         </div>
         <div className="right-btn">
-          <button className="btn-item">
-            <ArrowLeftOutlined /> Back
-          </button>
-          <button className="btn-item">
-            Next <ArrowRightOutlined />{" "}
-          </button>
+          <Button className="btn-item" title="Back" />
+          <Button className="btn-item" title="Next" />
         </div>
       </div>
     </div>

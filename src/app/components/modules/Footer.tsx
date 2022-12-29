@@ -4,6 +4,8 @@ import IconFace from "public/images/iconFace .png";
 import IconInsta from "public/images/iconInsta.png";
 import IconTwist from "public/images/iconTwit.png";
 import { Logo } from "app/components/elements/Logo";
+import Button from "app/components/elements/Button";
+import Input from "app/components/elements/Input";
 
 const Footer: FC = (): ReactElement => {
   return (
@@ -31,12 +33,12 @@ const Footer: FC = (): ReactElement => {
         <div className="subscribe">
           <h1 className="subscribe-title">Newsletter:</h1>
           <div className="sub-fill">
-            <input
+            <Input
               type="text"
               className="sub-input"
               placeholder="Your email here"
             />
-            <button className="sub-btn">Subscribe</button>
+            <Button title="Subscribe" className="sub-btn" />
           </div>
           <p className="subscribe-content">Social:</p>
           <div className="sub-social">

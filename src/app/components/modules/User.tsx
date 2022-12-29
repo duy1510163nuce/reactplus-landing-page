@@ -1,6 +1,7 @@
 import { FC, ReactElement } from "react";
 import avtUser from "public/images/user.png";
 import "app/styles/elements/User.scss";
+import Button from 'app/components/elements/Button'
 const User: FC = (): ReactElement => {
   return (
     <div className="user">
@@ -15,9 +16,7 @@ const User: FC = (): ReactElement => {
           We’ve matured into an industry leader and trusted resource for those
           seeking quality, innovation and reliability when building in the U.S.
         </p>
-        <button className="des-btn">
-          <p className="des-btn-text">More on Our History</p>
-        </button>
+        <Button className="des-btn" title="More on Our History"/>
       </div>
     </div>
   );

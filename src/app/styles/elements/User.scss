@@ -2,7 +2,6 @@
   margin-top: 61.1px;
   position: relative;
   .avt-user {
-    // position: relative;
     width: 62%;
     margin-top: 54.15px;
     margin-left: 10%;
@@ -41,14 +40,11 @@
       height: 10%;
       width: 40%;
       border-radius: 4.39px;
-      .des-btn-text {
-        margin: 11.71px 14.63px;
-        font-size: 13.17px;
-        font-weight: 700;
-        line-height: 15px;
-        line-height: 100%;
-        color: #2947a9;
-      }
+      color: #2947a9;
+      font-size: 13.17px;
+      font-weight: 700;
+      line-height: 100%;
+      border: 1px solid #2947a9;
     }
   }
 }

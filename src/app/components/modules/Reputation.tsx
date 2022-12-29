@@ -8,11 +8,11 @@ type ReasonsType = {
   id: number;
 };
 type ReasonsListProps = {
-  reasons:ReasonsType[]
-}
+  reasons: ReasonsType[];
+};
 
-const Reputation: FC<ReasonsListProps> = ({reasons}): ReactElement => {
-  const Reason = (reason:ReasonsType) => {
+const Reputation: FC<ReasonsListProps> = ({ reasons }): ReactElement => {
+  const Reason = (reason: ReasonsType) => {
     return (
       <div className="reason" key={reason.id}>
         <img alt="avtUSer" src={reason.img} className="reason-img" />

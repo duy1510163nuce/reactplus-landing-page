@@ -1,6 +1,7 @@
 import { ReactElement } from "react";
 import ConsulImg from "public/images/consultation.png";
 import "app/styles/elements/Consultation.scss";
+import Button from "app/components/elements/Button";
 
 const Consultation = (): ReactElement => {
   return (
@@ -19,9 +20,7 @@ const Consultation = (): ReactElement => {
           <span className="consultation-phone"> +84 1102 2703</span>
         </p>
       </div>
-      <button className="consultation-btn">
-        <p className="btn-text">Get your consultation</p>
-      </button>
+      <Button title="Get your consultation" className="consultation-btn" />
     </div>
   );
 };

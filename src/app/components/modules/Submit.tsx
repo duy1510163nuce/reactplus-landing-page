@@ -1,6 +1,7 @@
 import { FC, ReactElement } from "react";
 import "app/styles/elements/Submit.scss";
 import { Form, Input, Row, Col } from "antd";
+import Button from "app/components/elements/Button";
 
 const { TextArea } = Input;
 const Submit: FC = (): ReactElement => {
@@ -55,8 +56,8 @@ const Submit: FC = (): ReactElement => {
           </Col>
         </Row>
       </Form>
-      <p className="submit-warning">* indicates a required field</p>
-      <button className="submit-btn">Submit</button>
+      <p className="submit-w    arning">* indicates a required field</p>
+      <Button title="Submit" className="submit-btn"/>
     </div>
   );
 };
