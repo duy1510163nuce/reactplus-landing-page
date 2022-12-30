@@ -43,6 +43,7 @@
       .des-btn {
         &:hover {
           opacity: 0.8;
+          cursor: pointer;
         }
         margin-top: 43.62px;
         margin-left: 29.27px;
@@ -91,6 +92,7 @@
     .consultation-btn {
       &:hover {
         opacity: 0.5;
+        cursor: pointer;
       }
       position: absolute;
       top: 145.44px;

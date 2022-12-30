@@ -1,7 +1,11 @@
 .header {
   display: flex;
   line-height: 26px;
-  margin-left: 5%;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: #fff;
+  z-index: 1;
   .logo {
     margin-left: 6.2%;
     .logo-text {
@@ -21,10 +25,15 @@
     display: flex;
     font-size: 18px;
     line-height: 100%;
-    margin-left: 36%;
+    margin-left: 500px;
     margin-top: 28px;
     .nav-item {
       margin: 0 15px;
+      &:hover {
+          opacity: 0.8;
+          cursor: pointer;
+          color: #2947a9;
+        }
     }
     .item-contact {
       color: #f9995d;
