@@ -1,0 +1,104 @@
+.homeContainer {
+  .banner {
+    .banner-img {
+      width: 100%;
+    }
+  }
+  .user {
+    margin-top: 61.1px;
+    position: relative;
+    .avt-user {
+      width: 62%;
+      margin-top: 54.15px;
+      margin-left: 10%;
+    }
+    .use-description {
+      position: absolute;
+      width: 440px;
+      height: 494px;
+      top: 50%;
+      transform: translateY(-50%);
+      right: 81px;
+      border-radius: 1.46px;
+      background-color: #2947a9;
+      .des-title {
+        margin-top: 35.59px;
+        margin-left: 29.27px;
+        color: #fff;
+      }
+      .des-paragraph1 {
+        margin-top: 26.81px;
+        margin-left: 29.27px;
+        font-size: 20px;
+        color: #fff;
+        max-width: 340px;
+      }
+      .des-paragraph2 {
+        margin-top: 22.81px;
+        margin-left: 29.27px;
+        font-size: 20px;
+        color: #fff;
+        max-width: 345px;
+      }
+      .des-btn {
+        &:hover {
+          opacity: 0.8;
+        }
+        margin-top: 43.62px;
+        margin-left: 29.27px;
+        height: 10%;
+        width: 40%;
+        border-radius: 4.39px;
+        color: #2947a9;
+        font-size: 13.17px;
+        font-weight: 700;
+        line-height: 100%;
+        border: 1px solid #2947a9;
+      }
+    }
+  }
+  .consultation {
+    width: 100%;
+    position: relative;
+    margin-top: 40px;
+    .consultation-img {
+      width: 100%;
+    }
+    .consultation-left {
+      width: 60%;
+      position: absolute;
+      .consultation-title {
+        margin-top: -24%;
+        margin-left: 10%;
+        font-size: 36px;
+        line-height: 100%;
+        color: #fff;
+        font-weight: 700;
+        position: absolute;
+      }
+      .consultation-text {
+        margin-top: 21.68px;
+        margin-top: -18%;
+        margin-left: 10%;
+        color: #fff;
+        line-height: 87px;
+        font-size: 24px;
+        .consultation-phone {
+          border-bottom: 1px solid #fff;
+        }
+      }
+    }
+    .consultation-btn {
+      &:hover {
+        opacity: 0.5;
+      }
+      position: absolute;
+      top: 145.44px;
+      right: 200.71px;
+      background: none;
+      border: 1px solid #fff;
+      padding: 10px;
+      color: #fff;
+    }
+  }
+}
