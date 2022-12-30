@@ -1,5 +1,5 @@
 import { FC, ReactElement } from "react";
-import "app/styles/elements/achievement.scss";
+import "app/styles/modules/achievements.scss";
 import Button from "app/components/elements/Button";
 
 type AchievementType = {

@@ -1,5 +1,5 @@
 import { FC, ReactElement } from "react";
-import "app/styles/elements/projects.scss";
+import "app/styles/modules/projectList.scss";
 import Button from "../elements/Button";
 import { ArrowLeftOutlined, ArrowRightOutlined } from "@ant-design/icons";
 

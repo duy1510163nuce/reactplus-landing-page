@@ -1,5 +1,5 @@
 import { FC, ReactElement } from "react";
-import "app/styles/elements/reputation.scss";
+import "app/styles/modules/reputations.scss";
 
 type ReasonsType = {
   img: string;

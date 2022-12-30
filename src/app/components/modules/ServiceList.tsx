@@ -1,5 +1,5 @@
 import { FC, ReactElement } from "react";
-import "app/styles/elements/service.scss";
+import "app/styles/modules/services.scss";
 
 type ServiceType = {
   img: string;
