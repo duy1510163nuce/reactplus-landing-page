@@ -1,5 +1,5 @@
 import { FC, ReactElement } from "react";
-import "app/styles/elements/Footer.scss";
+import "app/styles/elements/footer.scss";
 import IconFace from "public/images/iconFace .png";
 import IconInsta from "public/images/iconInsta.png";
 import IconTwist from "public/images/iconTwit.png";

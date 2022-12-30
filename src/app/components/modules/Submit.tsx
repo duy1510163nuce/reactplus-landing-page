@@ -1,5 +1,5 @@
 import { FC, ReactElement } from "react";
-import "app/styles/elements/Submit.scss";
+import "app/styles/elements/submit.scss";
 import { Form, Input, Row, Col } from "antd";
 import Button from "app/components/elements/Button";
 

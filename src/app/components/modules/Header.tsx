@@ -1,5 +1,5 @@
 import { FC, ReactElement } from "react";
-import "app/styles/elements/Header.scss";
+import "app/styles/elements/header.scss";
 import { Logo } from "app/components/elements/Logo";
 
 type ItemType = {

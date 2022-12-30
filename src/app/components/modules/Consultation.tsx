@@ -1,6 +1,6 @@
 import { ReactElement } from "react";
 import ConsulImg from "public/images/consultation.png";
-import "app/styles/elements/Consultation.scss";
+import "app/styles/elements/consultation.scss";
 import Button from "app/components/elements/Button";
 
 const Consultation = (): ReactElement => {

@@ -1,6 +1,6 @@
 import { FC, ReactElement } from "react";
 import Hero from "public/images/Hero.png";
-import "app/styles/elements/Banner.scss";
+import "app/styles/elements/banner.scss";
 const Banner: FC = (): ReactElement => {
   return (
     <div className="banner">

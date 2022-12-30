@@ -9,11 +9,7 @@ import Reputation from "app/components/modules/Reputation";
 import Service from "app/components/modules/ServiceList";
 import Submit from "app/components/modules/Submit";
 import User from "app/components/modules/User";
-import { listServices } from "app/const/mockApi";
-import {listReason} from "app/const/mockApi";
-import { listAchievement } from "app/const/mockApi";
-import { listProjects } from "app/const/mockApi";
-import { listNavbar } from "app/const/mockApi";
+import { listServices,listReason,listAchievement,listProjects,listNavbar } from "app/const/mockApi";
 
 export const HomeContainer: FC = (): ReactElement => {
   return (
