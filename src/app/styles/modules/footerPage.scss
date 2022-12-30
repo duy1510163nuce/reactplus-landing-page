@@ -63,8 +63,10 @@
       }
     }
     .contact-logo {
-      margin-right: 79%;
-    }
+      .logo-footer{
+            margin: 0 0 1% 1%;
+      }
+      }
   }
   .subscribe {
     width: 50%;
@@ -85,6 +87,21 @@
       display: flex;
       margin-top: 4%;
       .sub-item {
+        .icon-face{
+          &:hover{
+            opacity: 0.5;
+          }
+        }
+         .icon-insta{
+          &:hover{
+            opacity: 0.5;
+          }
+        }
+         .icon-twist{
+          &:hover{
+            opacity: 0.5;
+          }
+        }
         margin-right: 2%;
       }
     }
@@ -97,6 +114,9 @@
         border: 1px solid #e0e3eb;
       }
       .sub-btn {
+        &:hover{
+          opacity:0.5;
+        }
         margin-left: 1%;
         width: 19%;
         height: 33px;

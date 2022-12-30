@@ -30,6 +30,9 @@
     }
   }
   .consultation-btn {
+    &:hover{
+      opacity: 0.5;
+    }
     position: absolute;
     top: 145.44px;
     right: 200.71px;

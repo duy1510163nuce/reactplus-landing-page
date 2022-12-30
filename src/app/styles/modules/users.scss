@@ -35,6 +35,9 @@
       max-width: 345px;
     }
     .des-btn {
+      &:hover{
+        opacity:0.8;
+      }
       margin-top: 43.62px;
       margin-left: 29.27px;
       height: 10%;

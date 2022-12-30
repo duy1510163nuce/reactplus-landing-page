@@ -109,6 +109,9 @@
             max-width: 270px;
         }
         .right-btn{
+            &:hover{
+                opacity: 0.5;
+            }
             margin-top: 49.03px;
             width: 128.78px;
             height: 38.42px;

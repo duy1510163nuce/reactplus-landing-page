@@ -29,6 +29,9 @@
         padding-right: 19%;
     }
     .submit-btn{
+        &:hover{
+            opacity: 0.5;
+        }
         width: 198.3px;
         height: 38.42px;
         border-radius: 2.93px;

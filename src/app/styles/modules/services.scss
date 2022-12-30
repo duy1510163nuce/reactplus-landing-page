@@ -17,6 +17,9 @@
     display: flex;
     flex-wrap: wrap;
     .util-2 {
+      &:hover{
+        opacity: 0.5;
+      }
       width: 16%;
       height: 132.44px;
       background-color: #fff;
@@ -39,6 +42,9 @@
       }
     }
     .util-1 {
+      &:hover{
+        opacity: 0.5;
+      }
       width: 16%;
       background-color: #2947a9;
       height: 132.44px;

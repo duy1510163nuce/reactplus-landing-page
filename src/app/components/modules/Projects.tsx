@@ -46,10 +46,10 @@ const ProjectList: FC<ProjectListProps> = ({ projects }): ReactElement => {
           })}
         </div>
         <div className="right-btn">
-          <Button className="btn-item">
+          <Button className="btn-item btn-back">
             <ArrowLeftOutlined /> Back
           </Button>
-          <Button className="btn-item">
+          <Button className="btn-item btn-next">
             Next <ArrowRightOutlined />
           </Button>
         </div>

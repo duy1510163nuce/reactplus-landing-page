@@ -6,7 +6,7 @@ export const Logo: FC = (): ReactElement => {
   return (
     <div className="logo">
       <img alt="logo-box" src={box} className="logo-box" />
-      <img alt="logo-text" src={theBox} className="logo-text" />
+      <img alt="logo-text" src={theBox} className="logo-text logo-footer" />
     </div>
   );
 };

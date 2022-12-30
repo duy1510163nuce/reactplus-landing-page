@@ -25,25 +25,36 @@
             .list-name{
                 padding-top: 0.26;
                 margin-top: 29.26px;
+                font-size: 17.56px;
+                color: #2947A9;
+                line-height:100%;
+                font-weight: bold;
             }
         }
         .list-item{
-                margin-top: 14.12px;
-                margin-left: 96.59px;
-                font-size: 17.56px;
-                line-height: 100%;
-                color: #C2C7D6;
+            &:hover{
+                color: #2947A9;
+                font-weight: 500;
             }
+            margin-top: 14.12px;
+            margin-left: 96.59px;
+            font-size: 17.56px;
+            line-height: 100%;
+            color: #C2C7D6;
+        }
     }
     .right{
         width: 80%;
         .right-list{
-            width: 100%;
+            width: 83%;
             display: flex;
             flex-wrap: wrap;
             margin-left: 17%;
             margin-top: 11.3%;
             .project{
+                &:hover{
+                    opacity: 0.5;
+                }
                 width: 35%;
                 margin: 0 1%;
                 .project-img{
@@ -63,7 +74,7 @@
                     }
                     .project-date{
                         font-weight: 400;
-                        font-size: 18px;
+                        font-size: 14px;
                         line-height: 100%;
                         color:#fff;
                         padding-bottom: 11.71px;
@@ -81,6 +92,16 @@
                 margin-left: 18%;
                 margin-right: 6.8%;
                 margin-bottom:2% ;
+            }
+            .btn-back{
+                &:hover{
+                    opacity: 0.5;
+                }
+            }
+            .btn-next{
+                &:hover{
+                    opacity: 0.5;
+                }
             }
         }
     }
