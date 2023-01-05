@@ -1,0 +1,42 @@
+.header {
+  display: flex;
+  line-height: 26px;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: #fff;
+  z-index: 1;
+  .logo {
+    margin-left: 6.2%;
+    .logo-text {
+      width: 81px;
+      height: 26px;
+      padding-left: 10.21px;
+      margin-top: 26.1px;
+    }
+    .logo-box {
+      width: 27.81px;
+      height: 34.76px;
+      margin-top: 11.1px;
+    }
+  }
+  .navbar {
+    list-style: none;
+    display: flex;
+    font-size: 18px;
+    line-height: 100%;
+    margin-left: 500px;
+    margin-top: 28px;
+    .nav-item {
+      margin: 0 15px;
+      &:hover {
+          opacity: 0.8;
+          cursor: pointer;
+          color: #2947a9;
+        }
+    }
+    .item-contact {
+      color: #f9995d;
+    }
+  }
+}
